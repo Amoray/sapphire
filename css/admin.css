@@ -1,0 +1,53 @@
+body > header[role=banner] {
+	font-size: 32px;
+	background-color: #11354B;
+	padding: 0px 20px;
+	color: #4895BC;
+	position: fixed;
+	border-bottom: outset 4px #FFFFFF;
+	width: 100%;
+	height: 85px;
+	top: 0px;
+	left: 0px;
+}
+
+body > footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+
+body > article {
+	margin: 85px 20px 0px;
+	width: 100%;
+}
+
+body > article > section {
+	float: left;
+	margin: 10px;
+	width: 220px;
+	height: 220px;
+	background-color: #EBEBEB;
+	position: relative;
+}
+
+body > article > section.Y2 {
+	height: 460px;
+}
+
+
+body > article > section > header {
+	text-transform: capitalize;
+	font-size: 22px;
+	margin: 5px;
+	width: 100%;
+}
+
+body > article > section > footer {
+	position: absolute;
+	margin: 0 5px;
+	bottom: 0px;
+	right: 5px;
+	text-align: right;
+}

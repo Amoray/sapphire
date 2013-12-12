@@ -158,7 +158,7 @@ class BASIC
 			$string .= "#{$key} {$value['file']}({$value['line']}) - {$value['class']}{$value['type']}{$value['function']}\n";
 		}
 
-		$string = "</pre></div>";
+		$string .= "</pre></div>";
 
 		return $string;
 	}

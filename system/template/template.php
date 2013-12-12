@@ -16,7 +16,7 @@ class template
 		$template_file = $_SERVER['DOCUMENT_ROOT'] . self::TEMPLATE_DIR . $template .".tpl";
 		if (!file_exists($template_file))
 		{
-			throw new \Exception("Template File Not Found", 404);
+			throw new \templateException("Template File Not Found", 404);
 			return;	
 		}
 		else
@@ -90,5 +90,12 @@ class template
 		}
 	}
 }
+
+
+/**
+* template exceptions
+*/
+class templateException extends \Exception
+{}
 
 ?>
