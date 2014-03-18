@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Lead Developer: Amelia Lang
+	Site: amelialang.com
+	Twitter: @ameliaklang
+	Location: Kelowna, Canada
+
+    
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
